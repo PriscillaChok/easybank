@@ -1,0 +1,237 @@
+body {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 400;
+  color: hsl(233, 26%, 24%);
+}
+
+h2, h3, h4 {
+  color: hsl(233, 26%, 24%);
+}
+
+p, a {
+  color: hsl(233, 8%, 62%);
+  padding-top: 20px;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 7px;
+  font-size: 15px;
+}
+
+/* Button Code */
+.btn {
+  backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: linear-gradient(90deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%) 100%);
+  border-radius: 28px;
+  border: 1px solid #ba6;
+  border-width: 1px 1px 1px 1px;
+  padding: 7px 25px 7px 25px;
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.button>div {
+  color: #999;
+  font-size: 10px;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+}
+
+.button>i {
+  font-size: 1em;
+  border-radius: 0;
+  border: 0 solid transparent;
+  position: static
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 130px;
+}
+
+/* Main Page */
+.container-fluid {
+  padding: 0;
+}
+
+.content1 {
+  padding: 150px 130px 150px 130px;
+}
+
+.navbar {
+  z-index: 3;
+}
+
+.background {
+  position: absolute;
+  z-index: 1;
+  height: 130%;
+  width: 120%;
+  right: 0;
+  top: -140px;
+}
+
+.phones {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  top: -120px;
+}
+
+/* Why Choose Easybank? */
+.content2 {
+  background-color: hsl(220, 16%, 96%);
+  padding: 90px 130px 50px 130px;
+  position: relative;
+  z-index: -1;
+}
+
+.why-choose {
+  width: 60%;
+}
+
+.image {
+  margin: 30px 0;
+}
+
+/* Article Page */
+.articlePage {
+  padding: 90px 130px;
+}
+
+.image2 {
+  width: 100%;
+  height: 50%;
+  padding-top: 40px;
+}
+
+.publisher {
+  font-size: 12px;
+}
+
+/* Footer Section */
+.column {
+  padding: 50px 130px 40px 130px;
+  background-color: hsl(233, 26%, 24%);
+}
+
+.footer-nav {
+  display: inline-block;
+  width: 20%;
+  justify-content: space-between;
+}
+
+.media {
+  display: inline-block;
+  margin: 3px;
+}
+
+.col4 {
+  width: 30%;
+  margin-left: 90px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width:576px) {
+  .navbar {
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .phones {
+    position: absolute;
+    width: 100%;
+  }
+
+  .content1 {
+    padding: 100% 6% 6% 6%;
+    text-align: center;
+  }
+
+  .button {
+    margin: 10px 90px;
+  }
+
+  .content2 {
+    text-align: center;
+    padding: 7%;
+  }
+
+  .why-choose {
+    width: 100%;
+    padding: 30px 40px 10px 40px;;
+  }
+
+  .features {
+    padding: 20px 40px;
+  }
+
+  .articlePage {
+    padding: 15%;
+  }
+
+  .latest {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .column {
+    padding: 50px 90px 20px 50px;
+    text-align: center;
+  }
+
+  .footer-nav {
+    display: inline-block;
+    width: 100%;
+  }
+
+
+  .col4 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .reserved {
+    font-size: 13px;
+  }
+}
